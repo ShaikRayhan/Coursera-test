@@ -1,0 +1,73 @@
+body {
+	font-size: 16px;
+	color: #fff; /*white*/
+	background-color: #61122f;
+	font-family: 'Oxygen',sans-serif;
+}
+#header-nav{
+	background-color: #f6b319;
+	border: 0;
+	border-radius: 0;
+	padding-bottom: 20px;
+}
+hr {
+	margin-bottom: 10px;
+	margin-top: 5px;
+	width: 100%;
+}
+#collapsable-nav {
+	background-color: grey;
+}
+.navbar-brand {
+	padding-top: 25px;
+}
+.navbar-brand h1 {
+	font-family: 'Lora', serif;
+	color: #557c3e;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 0.75
+}
+.navbar-brand a:hover,.navbar-brand a:focus {
+	text-decoration: none;
+}
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -30px;
+}
+.navbar-header button.navbar-toggle,.navbar-header .icon-bar {
+	border: 1px solid #61122f;
+}
+h2 {
+	color: pink;
+	margin-bottom: 30px;
+}
+#main-content{
+	background-color: blue;
+}
+#nav-list {
+	margin: 10px;
+}
+#nav-list a {
+	color: #951c49;
+	text-align: center;
+ }
+#nav-list a:hover {
+	background:#E7E7E7;
+}
+@media (min-width: 768px){
+	#collapsable-nav{
+		display: none!important;
+	}
+}
+@media (max-width: 768px){
+	#main-content {
+		width: 80%;
+	}
+	#collapsable-nav {
+		padding-top: 0;
+	}
+}

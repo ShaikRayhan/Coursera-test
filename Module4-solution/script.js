@@ -51,10 +51,9 @@ for (var i = 0; i < names.length; i++) {
   // to lower case character 'j' afterwards.
   // Look up these methods on Mozilla Developer Network web site if needed.
   // var firstLetter =
-  function lower(x){
-  return toLowerCase(names[i]);
-}
-var firstLetter = names[i].charAt(0);
+  var str = names[i];
+  var res = str.toLowerCase();
+var firstLetter = res.charAt(0);
 //console.log(firstLetter);
 
 var letter = "j";

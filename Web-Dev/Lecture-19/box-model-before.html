@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>The Box Model</title>
+<style>
+* {box-sizing: border-box;
+margin: 0;
+	padding: 0;}
+
+body {
+	
+  background-color: gray;
+}
+
+#box {
+  background-color: blue;
+  padding: 10px;
+  border : 6px solid black ;
+  margin-top: 50px;
+  width: 300px;
+  height: 50px;
+  overflow: auto;
+}
+#content {
+  background-color: #90EE90; /*green*/
+  text-transform: capitalize;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+</style>
+</head>
+<body>
+
+<h1>Box Model</h1>
+
+<div id="box">
+  <div id="content">work hard, command results, demand nothing. when you focus on problems, you'll have more problems. when you focus on possibilities, you'll have more opportunities. If you don't like the rule, just follow the rule, reach to the top, and change it.</div>
+</div>
+<div>work hard, command results, demand nothing. when you focus on problems, you'll have more problems. when you focus on possibilities, you'll have more opportunities. If you don't like the rule, just follow the rule, reach to the top, and change it.</div>
+
+</body>
+</html>
